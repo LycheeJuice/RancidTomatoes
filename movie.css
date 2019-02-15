@@ -1,0 +1,134 @@
+body{
+    font-family: sans-serif;
+    background-color: #E4E6D7;
+
+}
+
+/*banner stuff*/
+.banner{
+    margin: auto;
+    background-image: url(RancidFiles/rancidbannerbg.png);
+    background-repeat: repeat-x;
+    height: 50px;
+    overflow:hidden;
+}
+
+.center_img{
+    display: block;
+    margin: auto;
+}
+
+/*header*/
+h1{
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24pt;
+    font-family: "Georgia";
+    text-shadow: 3px 3px #999999;
+}
+
+/*container for content*/
+#content{
+    margin: auto;
+    width: 800px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px grey;
+    border: solid black 2px;
+    overflow: hidden;
+    height: 100%;
+}
+
+
+/*left col stuff*/
+#content > .leftsec{
+    width: 550px;
+    float: left;
+    height: 1250px;
+}
+
+div.review-banner{
+    margin: auto;
+    height: 83px;
+    color:red;
+    background-image: url(RancidFiles/rottenlargebg.png);
+    background-repeat: repeat-x;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 48pt;
+    
+}
+
+
+img.review-banner-img{
+    vertical-align: bottom;
+}
+
+div.leftsec > .reviews_sec{
+    column-count: 2;
+    column-gap: 2%;
+    column-width: auto;
+    background-color: #EEEEEE;
+    padding: 2%;
+    text-align: left;
+    height: 90%;
+   
+}
+
+.review{
+    margin-top: 20pt;
+}
+
+div.review > p.quote{
+    font-size: 10pt;
+    font-family: "Times New Roman";
+    background-color: #FFFFFF;
+    border: solid 2px #CCCCCC ;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 8px;
+    
+}
+
+p > img{
+    padding-right: 5px;
+    float: left;
+}
+
+
+/*right col stuff*/
+#content > .rightsec{
+    float:right;
+    background-color: #A2B964;
+    width: 250px;
+    height: 90%;
+}
+
+div.rightsec > div.info {
+    padding: 10px;
+    font-family: "Arial";
+}
+
+dt{
+   font-weight: bold;
+   margin-top: 10pt;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+/*Page Tracker/Footer Stuff*/
+#page-tracker{
+    background-color:#A2B964;
+    padding: 5px;
+    text-align: center;
+    height: 10%;
+}
+
+#footer{
+    text-align: right;
+}
